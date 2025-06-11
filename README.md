@@ -5,6 +5,10 @@ Imagine you’re a machine learning engineer at a biotech startup tasked with pr
 
 It trains on a subset of the QM9 dataset and learns to predict molecular properties from graph representations of molecules. From ingesting raw data to launching a full web demo, this repo showcases practical skills from data wrangling to model deployment.
 
+Now featuring:
+- 🧪 **SMILES input field** for entering molecules
+- 🧬 **Molecule viewer** using RDKit
+
 ---
 
 ## 🚀 Key Results
@@ -31,6 +35,7 @@ It trains on a subset of the QM9 dataset and learns to predict molecular propert
 | **Deployment**            | Streamlit + Hugging Face Spaces                      |
 | **Reproducibility**       | Simple entry script, portable app, public weights    |
 | **Dev Practices**         | `.gitignore`, modular code, small footprint          |
+| **Molecular UX**          | SMILES input + RDKit molecule visualization          |
 
 ---
 
@@ -63,7 +68,7 @@ Upload the files above to a new Streamlit-based Space. No setup needed.
 ---
 
 ## 💡 Extensions
-- Add RDKit for molecule visualization
+- Add RDKit for molecule visualization ← ✅ Done!
 - Use edge features (e.g. bond type) with `GCNConv`
 - Try GATConv or DimeNet for richer embeddings
 
@@ -79,7 +84,8 @@ MIT License
 
 ---
 
-![Python](https://img.shields.io/badge/python-3.10-blue?logo=python)
+Want to discuss this project or collaborate on future GNN or ML for health applications? I’d love to connect!
+
 ![Streamlit](https://img.shields.io/badge/streamlit-app-red?logo=streamlit)
 ![HuggingFace Spaces](https://img.shields.io/badge/HuggingFace-Spaces-yellow?logo=huggingface)
 ![License](https://img.shields.io/badge/license-MIT-green)
