@@ -78,6 +78,11 @@ Upload the files above to a new Streamlit-based Space. No setup needed.
 This project was created to demonstrate full-stack ML engineering for graph-structured biomedical data, while staying deployable, interpretable, and accessible. The goal is to bridge scientific modeling with real-world usability.
 
 ---
+## Image
+
+![Molecule Visualization](images/image_1.png)
+
+---
 
 ## 🪪 License
 MIT License
