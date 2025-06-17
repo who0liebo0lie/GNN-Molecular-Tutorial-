@@ -10,3 +10,12 @@ def load_data(batch_size=32):
     train_loader = DataLoader(train_dataset, batch_size=batch_size)
     test_loader = DataLoader(test_dataset, batch_size=batch_size)
     return train_loader, test_loader
+
+def get_sample_graph():
+    import torch
+    from torch_geometric.data import Data
+
+    edge_index = torch.tensor([[0, 1], [1, 0]], dtype=torch.long)
+    x = torch.tensor([[1], [2]], dtype=torch.float)
+
+    return Data(x=x, edge_index=edge_index)
