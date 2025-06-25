@@ -9,6 +9,10 @@ Now featuring:
 - 🧪 **SMILES input field** for entering molecules
 - 🧬 **Molecule viewer** using RDKit
 
+View Streamlit app in your browser.
+
+  Network URL: http://10.108.106.7:8501
+  External URL: http://44.209.54.138:8501
 ---
 
 ## 🚀 Key Results
