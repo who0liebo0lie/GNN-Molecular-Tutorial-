@@ -89,8 +89,6 @@ MIT License
 
 ---
 
-Want to discuss this project or collaborate on future GNN or ML for health applications? I’d love to connect!
-
 ![Streamlit](https://img.shields.io/badge/streamlit-app-red?logo=streamlit)
 ![HuggingFace Spaces](https://img.shields.io/badge/HuggingFace-Spaces-yellow?logo=huggingface)
 ![License](https://img.shields.io/badge/license-MIT-green)
