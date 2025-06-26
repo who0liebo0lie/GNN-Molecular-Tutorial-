@@ -11,9 +11,46 @@ Now featuring:
 
 View Streamlit app in your browser.
 
-  Network URL: http://10.108.106.7:8501
-  External URL: http://44.209.54.138:8501
+Network URL: http://10.108.106.7:8501
+
+External URL: http://44.209.54.138:8501
+
 ---
+
+## SMILES examples for app
+### 🧪 Basic Molecules
+| Molecule    | SMILES     | Notes                          |
+|-------------|------------|---------------------------------|
+| Water       | `O`        | One oxygen atom (H₂O implied)   |
+| Methane     | `C`        | One carbon atom with 4 hydrogens |
+| Ethanol     | `CCO`      | Two carbons and an OH group     |
+| Acetic acid | `CC(=O)O`  | Carboxylic acid group           |
+| Benzene     | `c1ccccc1` | Aromatic ring                   |
+
+### 🔬 Complex Molecules
+| Molecule   | SMILES                                 | Notes                                   |
+|------------|----------------------------------------|------------------------------------------|
+| Glucose    | `C(C1C(C(C(C(O1)O)O)O)O)O`             | Ring form of glucose                     |
+| Aspirin    | `CC(=O)OC1=CC=CC=C1C(=O)O`             | Contains ester and carboxylic acid       |
+| Caffeine   | `Cn1cnc2c1c(=O)n(c(=O)n2C)C`           | Multiple rings and nitrogen atoms        |
+| Nicotine   | `CN1CCCC1C2=CN=CC=C2`                  | Two rings, includes a pyridine ring      |
+
+### 🧬 Amino Acids
+| Amino Acid | SMILES                          | Notes                        |
+|------------|----------------------------------|-------------------------------|
+| Glycine    | `NCC(=O)O`                      | Simplest amino acid           |
+| Alanine    | `CC(C(=O)O)N`                   | Has a methyl side chain       |
+| Serine     | `C(C(C(=O)O)N)O`                | Contains a hydroxyl group     |
+| Tryptophan | `C1=CC=C2C(=C1)C=CN2CC(C(=O)O)N` | Aromatic indole side chain    |
+
+### 💊 Pharmaceuticals
+| Drug        | SMILES                                             | Notes                                |
+|-------------|----------------------------------------------------|---------------------------------------|
+| Ibuprofen   | `CC(C)CC1=CC=C(C=C1)C(C)C(=O)O`                    | NSAID pain reliever                   |
+| Paracetamol | `CC(=O)NC1=CC=C(C=C1)O`                            | Also known as acetaminophen           |
+| Penicillin G| `CC1(C)S[C@H](N2C=NC=C2)[C@@H](C(=O)O)N1C(=O)C`    | Beta-lactam antibiotic                |
+
+
 
 ## 🚀 Key Results
 | Metric                      | Value                     |
